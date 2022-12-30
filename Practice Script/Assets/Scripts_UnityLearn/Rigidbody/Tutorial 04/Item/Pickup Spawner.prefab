@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4237293441260118879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4237293441260118876}
+  - component: {fileID: 8725610240585862638}
+  - component: {fileID: 3728971494221447037}
+  - component: {fileID: 9159505652891433006}
+  m_Layer: 0
+  m_Name: Pickup Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4237293441260118876
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4237293441260118879}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8725610240585862638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4237293441260118879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 649fc8996f430d540aae7c565a8e7e6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Healitem: {fileID: 7903304095012069805, guid: 88cd4bba702cf264ca5323ee2ac1c9b4, type: 3}
+  m_countHealitem: 30
+  m_Defenceitem: {fileID: 6593555396266364924, guid: 2d7d1ee278c6197449b66c56050014c5, type: 3}
+  m_countDefenceitem: 30
+  m_Offenseitem: {fileID: 97963528607711371, guid: 6336927dec608c94ba21779c44502b41, type: 3}
+  m_countOffenseitem: 30
+--- !u!114 &3728971494221447037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4237293441260118879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c88ef3f10dc70ba479f92230adf7adca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9159505652891433006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4237293441260118879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d38c2f647ea9254ea61e6fe175dc5e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StageId: 0000000001000000020000000300000004000000
+  SpawnTime:
+  - 10
+  - 20
+  - 30
+  - 40
+  - 50
+  SpawnitemType: 0200000002000000010000000100000000000000
+  SpawnPosition:
+  - {x: 10, y: 1, z: -10}
+  - {x: 20, y: 1, z: 15}
+  - {x: 30, y: 1, z: -20}
+  - {x: -40, y: 1, z: 10}
+  - {x: -15, y: 1, z: -30}

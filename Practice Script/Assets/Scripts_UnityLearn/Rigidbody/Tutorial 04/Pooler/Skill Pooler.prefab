@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5676960445805152300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4684598874346648970}
+  - component: {fileID: 2740825620962249508}
+  m_Layer: 0
+  m_Name: Skill Pooler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4684598874346648970
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5676960445805152300}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2740825620962249508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5676960445805152300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d50b8cc0aa594f6488cdb805fed719e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillBullet: {fileID: 4642765816125438047, guid: f132236ceb56c1c42a953bd7c19946f8, type: 3}
+  countBullet: 20
+  skillLaserGun: {fileID: 6039565305712756656, guid: ecd3c4bec34765e45b063ed316d8a078, type: 3}
+  countLaserGun: 20
+  skillMagicRunic: {fileID: 8157675123650596946, guid: bdbbeea1a073b6b478f1145da44e61f4, type: 3}
+  countMagicRunic: 20
+  skillBombingBomb: {fileID: 1199771887371341898, guid: f3707bd635c39734e82466df4de053fe, type: 3}
+  countBombingBomb: 20
+  skillWizHit: {fileID: 2528050660776692566, guid: fdac76275e6cd9542b97b1c7a03430a8, type: 3}
+  countWizHit: 20
+  skillEnemyBullet: {fileID: 4642765816125438047, guid: 1ae4815d37e803040914c3b5afbc37ba, type: 3}
+  countEnemyBullet: 20
+  skillEmptyBullet: {fileID: 3129014591908726333, guid: 0eb0b57749b6e9247bf12da3d4ff4410, type: 3}
+  countEmptyBullet: 20
+  skillAxe: {fileID: 1633443070630371736, guid: ad69f89ce7be58940916350ff87c3d2e, type: 3}
+  countAxe: 20
+  skillAxeReady: {fileID: 2649891116825011643, guid: 9e6f7a531f5daad478d7458969f54d5f, type: 3}
+  countAxeReady: 20
+  skillPoisionReady: {fileID: 5767722451551915466, guid: b809fd69bed2205499bbfdb9472a820b, type: 3}
+  countPoisionReady: 20
+  skillPoision: {fileID: 3302014107561771013, guid: 4a864cffe41e9834eb35f750ade72baa, type: 3}
+  countPoision: 20

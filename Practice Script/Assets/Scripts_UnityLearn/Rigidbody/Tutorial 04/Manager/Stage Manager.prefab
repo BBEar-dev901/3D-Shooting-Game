@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4051805821838826104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4051805821838826106}
+  - component: {fileID: 4051805821838826107}
+  - component: {fileID: 6668115739805855547}
+  - component: {fileID: 2727398330447219947}
+  m_Layer: 0
+  m_Name: Stage Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4051805821838826106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4051805821838826104}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4051805821838826107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4051805821838826104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5690deb4d3aca7458ab06050ddd3b29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ticTacToeResult: {fileID: 11400000, guid: aacf2a8066bb87f4980df569ac8336ca, type: 2}
+  m_EndGameUI: {fileID: 0}
+  m_CharacterStat: {fileID: 0}
+  gameTicTacToe: {fileID: 6087999439976469492, guid: 4ac4a4d56134e524d9dd66acf29f5cdc, type: 3}
+--- !u!114 &6668115739805855547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4051805821838826104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8947aa4717dabaf4abc790279e324362, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Stages:
+  - stageId: 0
+    objectives:
+    - {fileID: 840855220653096699, guid: 600a7d40423fc004fa6bd68f446a1338, type: 3}
+  - stageId: 1
+    objectives:
+    - {fileID: 840855220653096699, guid: 5d5a664d6d19ade46a81a1938db37061, type: 3}
+--- !u!114 &2727398330447219947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4051805821838826104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07352e937f44eae47a3eed3fd5a26842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newScore: {fileID: 0}

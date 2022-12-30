@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &600297733704606951
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 796283478961461114}
+  - component: {fileID: 6739591309776669085}
+  - component: {fileID: -6984384559436806404}
+  m_Layer: 0
+  m_Name: Enemy Pooler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &796283478961461114
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600297733704606951}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6739591309776669085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600297733704606951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b6c30f53d2f56d4fb8b2db35e81bf30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyBombing: {fileID: 9047482446362220882, guid: b71cdbdfc8c12154e82cce07957f7cf5, type: 3}
+  countEnemyBombingPool: 40
+  enemyWiz: {fileID: 3135824315253621180, guid: 150d5818d54a70840bfd44cae81c4cea, type: 3}
+  countEnemyWizPool: 40
+  enemyBullet: {fileID: 1477754176542607516, guid: 7aea84d1d23255443851ae4b67f871e4, type: 3}
+  countEnemyBulletPool: 40
+  enemyAxe: {fileID: 5878530411063262009, guid: 184ca90f6112aed4a950b61016ddfe79, type: 3}
+  countEnemyAxePool: 40
+  enemyPoision: {fileID: 8536555722723885945, guid: e6988534f776b984e8fe5e7db8fd949d, type: 3}
+  countEnemyPoisionPool: 40
+--- !u!114 &-6984384559436806404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600297733704606951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e5a91fb8eb972844b387ecc9a0ba037, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

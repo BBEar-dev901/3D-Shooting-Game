@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78d689d6462b82f44ac5dda54acad452, type: 3}
+  m_Name: Patroller Info
+  m_EditorClassIdentifier: 
+  pathNode:
+  - {x: 1.8, y: 0.5, z: -37.2}
+  - {x: 14.23, y: 0.5, z: -27}
+  - {x: 13.9, y: 0.5, z: -3.2}
+  - {x: 1.9, y: 0.5, z: 12.3}
+  - {x: -11.4, y: 0.5, z: -3.6}
+  - {x: -11.5, y: 0.5, z: -26.5}
+  patrolSpeed: 4
+  checkingTime: 1
+  towardFactor: 3.1415927
+  pursuerDistance: 10
+  stoppingDistance: 1.5
+  moveFactor: 5
+  P_towardFactor: 6.2831855
+  fieldOfVision: 1.5707964
