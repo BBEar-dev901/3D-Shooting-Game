@@ -47,18 +47,18 @@ namespace Lecture.RigidBody.Tutorial04
             m_stageDatas = GetComponent<StageDatas>();
             maxStage = m_stageDatas.Stages.Length;
             m_platoonManager = GameObject.Find("Platoon Manager").GetComponent<PlatoonManager>();
-            //m_readyCountUI = GameObject.Find("GameReadyUI").GetComponent<ReadyCountUI>();
-            //m_buffManager = GameObject.Find("Buff Indicator").GetComponent<BuffManager>();
+            m_readyCountUI = GameObject.Find("GameReadyUI").GetComponent<ReadyCountUI>();
+            m_buffManager = GameObject.Find("Buff Indicator").GetComponent<BuffManager>();
             f_marker = GameObject.Find("Plane Marker").gameObject;
             f_marker1 = GameObject.Find("Plane Marker 2").gameObject;
             charaP = m_CharacterStat.gameObject.transform.position;
 
             f_marker.SetActive(false);
             f_marker1.SetActive(false);
-            //saveSystem.Save();
-            //saveSystem.stageTimeClear();
-            //m_readyCountUI.countDownStart();
-            //StartCoroutine(StartStage(0, 5f));
+            saveSystem.Save();
+            saveSystem.stageTimeClear();
+            m_readyCountUI.countDownStart();
+            StartCoroutine(StartStage(0, 5f));
         }
         public int GetmaxStage()
         {
@@ -164,10 +164,10 @@ namespace Lecture.RigidBody.Tutorial04
                 //Instantiate(gameTicTacToe, transform);
                 //return;
                 // Prefabs 2
-                MinigameStart();
+                //MinigameStart();
 
-                // 미니게임 없는 것
-                // NextStage();
+                //미니게임 없는 것
+                 NextStage();
             }
             else
             {
